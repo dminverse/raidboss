@@ -1,0 +1,12 @@
+
+
+const twitchAuth = (function() {
+	const username = 'dminverse';
+	const accessToken = 'aaBBccdd';
+	const clientId = 'eeffGGhhii';
+	return {
+		username,
+		accessToken,
+		clientId,
+	};
+})();
