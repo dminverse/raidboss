@@ -12,6 +12,10 @@ const cookieSecretKey = process.env.COOKIE_SECRET || 'RaidBoss gives +1 attack t
 
 const app = express();
 
+// if you are using GitHub Codespaces or some other reverse proxy setup, try turning on trust proxy:
+// you can also set it to a specific IP or netmask, see https://expressjs.com/en/guide/behind-proxies.html
+// app.set('trust proxy', true);
+
 // add req.session cookie support
 app.use(cookieSession({ secret: cookieSecretKey }));
 
@@ -34,7 +38,7 @@ app.use(passport.initialize());
 passport.use(new twitchStrategy({
     clientID: process.env.TWITCH_CLIENT_ID,
     clientSecret: process.env.TWITCH_CLIENT_SECRET,
-    callbackURL: `http://localhost:${port}/auth/twitch/callback`, // 
+    callbackURL: `/auth/twitch/callback`, // http://localhost:${port}
     scope: "user_read channel:manage:raids user:read:follows"
   },
   function(accessToken, refreshToken, profile, done) {
