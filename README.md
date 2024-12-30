@@ -8,6 +8,9 @@ But then, which friend do you send them to? And you have to pick one who is actu
 So I created this tool to help! It will get the list of streamers you follow who are online, and randomly pick one to raid! It even does a fancy loop through the thumbnail images of each one while it decides,
 like a spinning roulette wheel, before it finally stops on one stream.
 
+# Demo
+See how it works at [https://www.tiktok.com/@dminverse/video/7453696156074315051](https://www.tiktok.com/@dminverse/video/7453696156074315051)
+
 # Support
 If you find this tool to be useful, I have a small favor to ask! Please go follow my stream at [https://www.twitch.tv/dminverse](https://www.twitch.tv/dminverse) because I'm close to the 50 followers that I need in order to become
 an Affiliate and get access to emotes for my followers! I often do co-working streams with fantasy RPG music in the background, and as of writing, today I coded up this tool while on stream.
