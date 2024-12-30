@@ -1,5 +1,5 @@
 # raidboss
-Twitch raid helper JavaScript Vue app
+Twitch raid helper JavaScript Vue app - use it live at [https://raidboss.dminverse.website](https://raidboss.dminverse.website)
 
 # Purpose
 Have you ever been streaming on Twitch, get to the end of your stream, and want to end the session by sending your viewers to raid a friend?
